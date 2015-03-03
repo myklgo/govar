@@ -12,17 +12,20 @@ List of common single character memory variables used in go.
 <li>i, n, k integers used in range. k is used as any key type because of mnemonic</li>
 <li>v       value used in range</li>
 </ul>
+<br>
 not accepted:
-m       mutex
-e       error should be used instead of err
-t       type for receiver methods
-p       parameter in afunction/method func (t *type) fn(p param){}
+<ul>
+<li>m       mutex</li>
+<li>e       error should be used instead of err</li>
+<li>t       type for receiver methods</li>
+<li>p       parameter in afunction/method func (t *type) fn(p param){}</li>
+</ul>
 
 List of variable naming rules in order of importance.
 
-Consistency: Being more important than disambiguous may seem counter intuitive. However consistency shrinks ambiguity over time, therefore more powerful.
-disambiguous
-length
+<b>Consistency</b> Being more important than disambiguous may seem counter intuitive. However consistency shrinks ambiguity over time, therefore more powerful.
+<b>Disambiguous</b>
+<b>Length</b>
 
 Single letter memory variables.
 
