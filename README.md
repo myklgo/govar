@@ -8,8 +8,10 @@ If you have a large team or contributing to open source, which the Go community 
 http://doc.cat-v.org/bell_labs/pikestyle
 
 List of common single character memory variables used in go.
-<ul><il>i, n, k integers used in range. k is used as any key type because of mnemonic</il>
-<il>v       value used in range</il>
+<ul>
+<li>i, n, k integers used in range. k is used as any key type because of mnemonic</li>
+<li>v       value used in range</li>
+</ul>
 not accepted:
 m       mutex
 e       error should be used instead of err
