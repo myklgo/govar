@@ -23,15 +23,14 @@ not accepted:
 
 List of variable naming rules in order of importance.
 
-<b>Consistency</b> Being more important than disambiguous may seem counter intuitive. However consistency shrinks ambiguity over time, therefore more powerful.
-<b>Disambiguous</b>
-<b>Length</b>
+<b>Consistency</b> Being more important than disambiguous may seem counter intuitive. However consistency shrinks ambiguity over time, therefore more powerful.<br>
+<b>Disambiguous</b><br>
+<b>Length</b><br>
 
-Single letter memory variables.
-
-It is consistently used by the Go community.
-An unambiguous initialization is close to all usage. (less than a screen, preferrably much less)
-It is used in the majority of loc in a function/method. Used so often it disambiguates itself. 
+<b>Single letter memory variables.</b>(One or more of the following)<br>
+If it is consistently used by the Go community.<br>
+An unambiguous initialization is close to all usage. (<b>less</b> than a screen)<br>
+It is used in the majority of loc in a function/method. Used so often it disambiguates itself.<br> 
 
 Two letter memory variables.
 
